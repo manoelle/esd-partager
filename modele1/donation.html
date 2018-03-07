@@ -70,22 +70,42 @@
 
 			
            <!-- formulaire pour une donnation -->
-				<fieldset>
-				    <legend>Bulletin de soutien à E.S.D</legend>
-					    <p> Un recu fiscale vous sera remis pour déduire de vos impots 66% de votre don</p>
-                           <legend>Vos coordonnées</legend>
-                               <textarea for="nom"> Votre nom :</textarea>
+		
+				<section class = " projet">
+				    <h2>Bulletin de soutien à E.S.D</h2>
+					    <p>Notre ONG spécalisée dans le domaine de l'eau et de l'assainissement finance ses projets grace a vos différents don.</p>
+						<p>Un recu fiscale vous sera remis pour déduire de vos impots 66% de votre don. vous pouvez nous soutenir grace à allo association</p>
+						
+						<header>
+						<p>Allo Association!<em> Vous pouvez pouvez nous soutenir avec <a href=""</a></em><a href="#" class="button">Allo Association</a></p>
+					    </header>
+				</section>
+						
+				<section>		
+						<h2> Formulaire d'adhesion à l'association</h2>
+						     <p>Veuillez remplir le  formulaire suivant, nous reviendrons vers vous plus tard.</p>
+						 <fieldset>
+                             <legend>Vos coordonnées</legend>
+                               <label for="nom"> Votre nom :</label>
                                <input type="text" name="nom" id="nom" /></br>
-                               <textarea for="prenom">Votre prénom:</textarea>
+                               <label for="prenom">Votre prénom:</label>
                                <input type="text" name="prenom" id="prenom" /></br>
 					   
-                               <textarea for="email">Quel est votre e-mail:</textarea>
-                               <input type="email" name="email" id="email" />
+                               <label for="email">Quel est votre e-mail:</label>
+                               <input type="email" name="email" id="email" /></br>
 					   
-                               <textarea for="email">Votre numéros de téléphone:</textarea>
-                               <input type="tel" name="tel" id="tel" />
-                </fieldset>
+                               <label for="email">Votre numéros de téléphone:</label>
+                               <input id="telephone" placeholder="votre numéros" pattern="[0-9]{18}" type="tel"></br></br></br>
+						  </fieldset>
+						  
+                </section>
 				
+				       <p> Les frais d'adhesions sont:</p>
+					   <p>
+				          <li> Actif, Retraité : 50 euros</li>  
+						   <li> Etudiant , chomeur : 15 euros </li>
+					   </p>
+				<p>
 				<!-- envoyer les données du formulaire  -->
 			     <div class="row 25%">
 					<div class="10u">
@@ -95,22 +115,16 @@
 						</ul>
 				    </div>
 				</div>
+				</p>
 				
-				
-				
-           <section>
-              <h4> Ou je soutien mon association avec <a href="#" class="button"> allo association </a> </h4> 
-		   </section>
-		      
-
-             
+		
 						
 					<!-- Copyright -->
-						<div class="copyright">
-							<ul class="menu">
-								<li>Eau Service et Developement</li><li> situé au  <a href="#">24 bis Place de la nation 75012, Paris</a></li>
-							</ul>
-						</div>
+						<!-- <div class="copyright"> -->
+							<!-- <ul class="menu"> -->
+								<!-- <li>Eau Service et Developement</li><li> situé au  <a href="#">24 bis Place de la nation 75012, Paris</a></li> -->
+							<!-- </ul> -->
+						<!-- </div> -->
 
 				</div>
 
