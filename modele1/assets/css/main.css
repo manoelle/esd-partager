@@ -3195,12 +3195,17 @@ setInterval('imageGalerie()',2500);
 	form 
 	{
   margin: 50px;
-  padding:50px;
+  padding:0px;
+  width:1100px;
+  background-color: #e7e5e4;
+  
 }
  
 fieldset {
   margin:30px;
   padding: 10px;
+  /* height: 500px;  */
+  /* width :1400px ; */
 }
  
 /* legend { */
