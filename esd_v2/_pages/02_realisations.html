@@ -1,7 +1,64 @@
----
-layout: page
-title: Nos Réalisations
-permalink: /realisations/
+--- 
+layout: default
+title: Nos Réalisations 
+permalink: /realisations/ 
 ---
 
-Nos réalisations
+<div class="container pt-5 pb-5">
+
+    {% for r in site.data.realisations %}
+        <div class="row featurette border bg-white shadow-sm mb-5 p-3">
+            <div class="col-md-7 order-md-{{r.contextOrder}}"> 
+                <h2 class="featurette-heading text-primary">
+                    {{r.titre}}
+                </h2>
+                <hr />
+                <p class="lead">
+                    {{r.context}}
+                </p>
+                <div class="clearfix">
+    
+                    <button class="btn btn-outline-primary float-left " >
+                        Lire la suite
+                    </button>
+                    <p class="text-info float-right"> 
+                        Année : {{r.annee}}
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-5 order-md-{{r.imageOrder}} d-flex align-items-center">
+                <section id={{r.identifiant}} class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        {% for image in r.images %}    
+                            <li 
+                                data-target="#{{r.identifiant}}indicator" 
+                                data-slide-to="0" 
+                                class="{{r.class}}">
+                            </li> 
+                        {% endfor %} 
+                    </ol>
+                    <div class="carousel-inner">
+                        {% for image in r.images %}
+                            <div class="carousel-item {{image.class}}">
+                                <img class="d-block w-100" src="{{image.src}}" alt="First slide">
+                            </div>
+                        {% endfor %}
+                    </div>
+                    <a class="carousel-control-prev" href="#{{r.identifiant}}" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#{{r.identifiant}}" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+        
+                </section>
+            </div>
+        </div>
+    
+    {% endfor %}
+    
+    
+    
+</div>

@@ -1,38 +1,52 @@
 <aside>
 	<div class="container">
-		<nav>
-			LOGO	
-		</nav>
+		<!-- flex sur le container Logo -->
+		<div class="row align-items-center justify-content-between">
+			<!-- le logo -->
+			<div id="logo" class="d-flex align-items-end">
+				<!--<img class="logo" src="images/esd.png" height="60" width="60" >-->
+				<a href="#">
+					<span class="logo_description">E</span><span>au</span> <span class="logo_description">S</span><span>ervice</span><span class="logo_description">D</span><span>éveloppement</span>
+				</a>
+			</div>
+									
+			<!-- Faire un don -->
+			<button class="btn btn-md btn-outline-primary">
+				FAIRE UN DON
+			</button>
+			
+		</div>	
+
 	</div>
 </aside>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	<a class="navbar-brand" href="#">Navbar</a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-	</button>
-	<div class="collapse navbar-collapse" id="navbarNav">
-		<ul class="navbar-nav">
-			<li class="nav-item ">
-				<a class="nav-link" href="{{ "/" | prepend: site.baseurl }}">
-					Présentation
-				</a>	
-			</li>
-			{% for page in site.pages %} 
-				{% if page.title %}
-					<li class="nav-item ">
-						<a class="nav-link" href="{{ page.url | prepend: site.baseurl }}">
-							{{ page.title }}
-						</a>	
-					</li>
-				{% endif %} 
-			{% endfor %}
-		</ul>
+<nav id="app_header" class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+	<div class="container">
+		<a class="navbar-brand" href="#">
+			
+			<img src={{ "/images/esd.png" | prepend: site.baseurl }} width="40" height="40" alt="">
+			E S D
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav"> 
+				<li class="nav-item">
+					<a class="nav-link" href="{{ "/" | prepend: site.baseurl }}">
+						Présentation
+					</a>	
+				</li>
+				{% for page in site.pages %} 
+					{% if page.title %}
+						<li class="nav-item ">
+							<a class="nav-link" href="{{ page.url | prepend: site.baseurl }}">
+								{{ page.title }}
+							</a>	
+						</li>
+					{% endif %} 
+				{% endfor %}
+			</ul>
+		</div>
 	</div>
 </nav>
-
-<header>
-	<h1>
-
-	</h1>
-</header>

@@ -1,0 +1,41 @@
+.presentation{
+	background-color: #fafafa;
+	
+	p{
+		margin-bottom: 8px;
+	}
+}
+
+.responsable{
+	background-color: rgb(242, 247, 248);
+}
+
+
+.icon.major {
+    text-align: center;
+    cursor: default;
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+    background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+    color: #fff;
+    border-radius: 100%;
+    display: inline-block;
+    width: 5em;
+    height: 5em;
+    line-height: 5em;
+    box-shadow: 0 0 0 7px white, 0 0 0 8px #e0e0e0;
+    margin: 0 0 2em 0;
+}
+.icon {
+    text-decoration: none;
+    position: relative;
+    text-decoration: none;
+}
+em, i {
+    font-style: italic;
+}
+
+.icon.major::before {
+    font-size: 36px;
+}

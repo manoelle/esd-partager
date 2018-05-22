@@ -1,0 +1,54 @@
+- titre : Projet de Tuilli 
+  identifiant: projet-tuili
+  collaboration: En collaboration avec les amis de Tuilli 
+  context : L’association essonnienne « Les Amis de Tuili » depuis plus de 30 ans participe au développement de 13 villages à Tuili au Burkina par le financement d’écoles, d’ouvrage d’accès à l’eau, etc. La zone géographique se situe en zone sahélienne à environ 70 km au sud de Ouagadougou. Dès 2008, les conseillers municipaux des villages demandent à l’association de résoudre le principal problème des 15 000 habitants, l’eau potable
+  annee: 2017 / 2018
+  contextOrder: 1
+  imageOrder: 2
+  images:
+    - src: /images/tu00.jpg
+      class: active
+    - src: /images/tu01.jpg
+    - src: /images/tu02.jpg
+    - src: /images/tu03.jpg
+  
+- titre: Projet de Tillabery
+  identifiant: projet-tillabery
+  context : Le cout de ce projet d’un coût de 150 000 € a été co-financé par Draveil et une subvention du Sedif Ce projet de partenariat malgré un contexte politique difficile a pu être mené par des partenariats confiants avec des entreprises locales. 
+  annee: 2007 / 2008
+  contextOrder: 2
+  imageOrder: 1
+  images:
+    - src: /images/ti00.jpg
+      class: active
+    - src: /images/ti01.jpg
+    - src: /images/ti02.jpg
+    - src: /images/ti03.jpg
+    - src: /images/ti04.jpg
+
+- titre: Projet du Benin
+  identifiant: projet-benin
+  context : Le village de Gbahouété (5 000 hab. env.) est situé dans la Commune d’Ajahouéré (25 000 hab.env.) elle-même située à 80 km au nord de Porto Novo au Bénin.Le village, réparti sur une colline, n’a qu’un seul point privé. Ni le dispensaire, ni l’école n’ont d’accès à l’eau potable.
+  annee: 2015 / 2017
+  contextOrder: 1
+  imageOrder: 2
+  images:
+    - src: /images/be00.jpg
+      class: active
+    - src: /images/be01.jpg
+    - src: /images/be02.jpg
+    - src: /images/be03.jpg
+    - src: /images/be04.jpg
+
+- titre: Projet de Cameroun
+  identifiant: projet-cameroun
+  context : La communauté des sœurs de l’annonciation de Bobo-Dioulasso gère un collège-lycée à Gaoua avec environ 500 élèves. L’alimentation du collège en eau était réalisé par l’eau de la ville de Gaoua ce qui coutait cher, et ne permettait pas le développement du potager.
+  annee: 2015 / 2017
+  contextOrder: 2
+  imageOrder: 1
+  images:
+    - src: /images/cam00.jpg
+      class: active
+    - src: /images/cam01.jpg
+    - src: /images/cam03.jpg
+    - src: /images/cam04.jpg
