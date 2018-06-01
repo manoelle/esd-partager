@@ -8,9 +8,9 @@
   /* Thin out the marketing headings */
 .featurette-heading {
 	font-weight: 300;
-    line-height: 1;
+    //line-height: 1;
     margin-bottom: 2rem;
-	letter-spacing: -.05rem;
+	//letter-spacing: -.05rem;
 }
 
 /* RESPONSIVE CSS
@@ -18,7 +18,7 @@
 
 @media (min-width: 40em) {
 	.featurette-heading {
-	  font-size: 50px;
+	  //font-size: 50px;
 	}
 }
   

@@ -11,6 +11,32 @@
     - src: /images/tu01.jpg
     - src: /images/tu02.jpg
     - src: /images/tu03.jpg
+  acteurs:
+    - nom: Christian Lespinats
+      role: Président de ESD
+    - nom: Pierre Tavernier
+      role: Vice-Président de ESD
+    - nom: Philippe Conté
+      role: Trésorier de ESD
+    - nom: Olivier Celier
+      role: Expert de ESD
+  titreDeroulement : Déroulement du projet et action mener
+  descriptionDeroulement : Après une étude réalisée sur place par des étudiants de l’institut 2Ie de Ouagadougou, l’Association des Conseillers Municipaux de Tuili avec l’aide technique et financière de l’association les Amis de Tuili a réalisé des projets suivant
+  missions:
+    - titre: L’accès à l’eau permettant d’avoir un point d’eau pour 300 personnes à moins d'un (1) km AR des habitations
+    - titre: La réalisation 19 forages neufs avec des pompes India Mark 2
+    - titre: La réhabilitation 6 forages existants,
+    - titre: création de superstructures associées (margelle, murs de clôture, abreuvoir, etc.).
+    - titre: L’assainissement 9 latrines scolaires SANPLAT, des laves mains dans toutes les écoles et centres de santé,
+    - titre: La mise en place d’un service de l’eau conforme à la législation Burkinabé  • La mise en place de Comité de gestion par forage,
+    - titre: Création d'association des usagers de l’eau par village, et designation responsable eau au niveau municipal avec des maintenanciers.
+    - titre: Campagne de sensibilisation à l’hygiène de l’eau, au versement des cotisations eau et à l’entretien des forages (Interventions du Théatre Forum du Bazéga dans les 13 villages)
+  
+  medias:
+    - video: video
+      src: https://www.youtube.com/embed/5FimzHs6Joo
+    - map: map
+      src: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3128025.674675738!2d-1.5702295056469777!3d10.45977963970541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe34fb9f7d86d13f%3A0xa0e9136b20d27170!2sBobo-Dioulasso%2C+Burkina+Faso!5e0!3m2!1sfr!2sfr!4v1520630185164
   
 - titre: Projet de Tillabery
   identifiant: projet-tillabery
@@ -25,7 +51,27 @@
     - src: /images/ti02.jpg
     - src: /images/ti03.jpg
     - src: /images/ti04.jpg
-
+  acteurs:
+    - nom: Christian Lespinats
+      role: Président de ESD
+    - nom: Pierre Tavernier
+      role: Vice-Président de ESD
+    - nom: Philippe Conté
+      role: Trésorier de ESD
+    - nom: Olivier Celier
+      role: Expert de ESD 
+  titreDeroulement : Le projet réalisé de 2007 à 2008
+  descriptionDeroulement : Après une étude mené par Monsieur Antoine Bouvier Hydro géologue français, et en partenariat avec une association Nigérienne le RAIL, le projet a permis de
+  missions:
+    - titre: D'avoir l’accès à l’eau permettant d’avoir un point d’eau pour 350 personnes dans 10 villages autour de Tillabéry
+    - titre: De réalisation 10 forages neufs 
+    - titre: Création de superstructures associées (margelle, murs de clôture, abreuvoir, etc.).
+    - titre: De mettre en place d’un service de l’eau et de comité de gestion par forage,
+    - titre: De mutualisation des caisses au niveau de la municipalité de Tillabéry,
+    - titre: Responsable eau au niveau municipal formé et équipé d’un ordinateur et d’une moto.
+    - titre: De sensibilisé à l’hygiène de l’eau, au versement des cotisations eau et à l’entretien des forages 
+    - titre: d'intervenir au pres du responsable locale du jumelage Draveil Tillabéry pour le suivi des actions
+  
 - titre: Projet du Benin
   identifiant: projet-benin
   context : Le village de Gbahouété (5 000 hab. env.) est situé dans la Commune d’Ajahouéré (25 000 hab.env.) elle-même située à 80 km au nord de Porto Novo au Bénin.Le village, réparti sur une colline, n’a qu’un seul point privé. Ni le dispensaire, ni l’école n’ont d’accès à l’eau potable.
@@ -39,6 +85,15 @@
     - src: /images/be02.jpg
     - src: /images/be03.jpg
     - src: /images/be04.jpg
+  acteurs:
+    - nom: Christian Lespinats
+      role: Président de ESD
+    - nom: Pierre Tavernier
+      role: Vice-Président de ESD
+    - nom: Philippe Conté
+      role: Trésorier de ESD
+    - nom: Olivier Celier
+      role: Expert de ESD 
 
 - titre: Projet de Cameroun
   identifiant: projet-cameroun
@@ -52,3 +107,15 @@
     - src: /images/cam01.jpg
     - src: /images/cam03.jpg
     - src: /images/cam04.jpg
+  acteurs:
+    - nom: Christian Lespinats
+      role: Président de ESD
+    - nom: Olivier Celier
+      role: Expert de ESD 
+  titreDeroulement : Présentation du projet MV’I, N’KAN, Cameroun
+  descriptionDeroulement : Les villages de Mv’i et N’kan sont dans la région Sud du Cameroun, à une dizaine de kilomètres au sud-est de la Commune d’Ebolowa. Ils comprennent environ 1 000 habitants (en 2030, horizon du projet), entièrement dépourvus d’eau potable non pathogène. Le projet a consisté en
+  missions:
+    - titre: Deux captages de sources situées environ 200m. au-dessus du village,
+    - titre: Un réservoir de 25 m3, situé à environ 50m. au-dessus du village (rupture de charge) et équipé d’une pompe mécanique doseuse de chlore,
+    - titre: Neuf bornes fontaine le long de la route traversant le village, dont une pour l’école,
+    - titre: La formation d’un « Comité Eau » pour la gestion du réseau. Le montant du projet fut de 150 000 Euros environ, financé essentiellement par l’Agence de Bassin Loire Bretagne. Le projet fut géré par un « groupement » d’associations « La Ferté Macé – Ebolowa » basée en Normandie et HSF-IdF (à l’origine d’ESD) basée à Paris et représentée par Olivier CELIER, seul responsable technique et financier du projet. 

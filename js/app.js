@@ -10,3 +10,7 @@ function fixeHeader() {
 	header.classList.remove("fixed-top");
   }
 }
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
