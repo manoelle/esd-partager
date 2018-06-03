@@ -108,9 +108,11 @@ layout: default
 									</button>
 								</div> 
 								<div class="modal-body">
-									<p class="justifier">
-                    {{responsable.resume}}
-                  </p>
+                  {% for detail in responsable.details %}
+                    <p class="text-justify">
+                      {{detail.titre}} 
+                    </p>
+                  {% endfor %}
 								</div>
 								<div class="modal-footer">
 									<button type="button" class="btn btn-danger" data-dismiss="modal">FERMER</button>
