@@ -7,11 +7,12 @@ permalink: /soumettre_projet/
                   <!-- <h2>  Soumettre un projet</h2> -->
    
    
-   
-                  <div class="container">
-				       <div class="page-header">
-					       <h2 style="color:black"> <strong>Vous avez un projet? </strong></h2>
-					   
+             						   
+ <div class="container">
+                      <hr/>
+				         <div class="page-header">
+					       <h2 style="color:  #c25e1b">  Vous avez un projet? </h2>
+					   <hr/>		
 					         <p> Ce questionnaire va permettre à ESD comprendre votre demande. Merci de nous donner un maximum de renseignements 
 						    en répondant aux questions ci-dessous
 							
@@ -24,7 +25,33 @@ permalink: /soumettre_projet/
 			   
 			            <hr/>
 			   
-			          <form>
+	 <form methode="post" action="envoie1.php">
+					  
+					     <div class="form-row">
+              <div class="col-md-4 mb-3">
+	
+                 <label for="validationDefault01">Nom </label>
+                 <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value=""required name="nom">
+             </div>
+              <div class="col-md-4 mb-3">
+                <label for="validationDefault02">Prénom</label>
+                <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="" required name="prenom">
+               </div>
+                <div class="col-md-4 mb-3">
+                     <label for="validationDefaultUsername">Adresse Mail</label>
+                     <div class="input-group">
+                       <div class="input-group-prepend">
+                        <span class="input-group-text"  name="adresse" id="inputGroupPrepend2">@</span>
+                       </div>
+                        <input type="text" class="form-control" id="validationDefaultUsername"  name="mail" placeholder="Votre adresse mail" aria-describedby="inputGroupPrepend2" required>
+                      </div>
+                 </div>
+             </div>
+					  
+					  
+					  
+					  
+					  
  
                                    <fieldset type= "form-group" >
 								    
@@ -76,7 +103,7 @@ permalink: /soumettre_projet/
                                       <legend style="color:  #c25e1b"> ACCES A L’EAU</legend> <!-- Titre du fieldset --> 
                                      <hr/> 
                                          <label for="nom">Comment la population s’approvisionne-t-elle en eau ?</label>
-                                        <textarea type="text" name="" id=""class="form-control" rows="3" cols="10" /></textarea>
+                                        <textarea type="text" name="demamde11" id=""class="form-control" rows="3" cols="10" /></textarea>
 
                                           
                                     </fieldset>
@@ -87,7 +114,7 @@ permalink: /soumettre_projet/
                                       <legend style="color:  #c25e1b"> s’il y a une source </legend> <!-- Titre du fieldset --> 
                                     <hr/>
                                          <label for="nom">A quelle distance est-elle du village ?</label>
-                                         <input type="text" name=" " id=""class="form-control" />
+                                         <input type="text" name="demamde12 " id=""class="form-control" />
 										 <label for="nom">Quel est le débit en fin de saison sèche ?</label>
                                          
 										 <textarea type="text" name="" id=""class="form-control" rows="3" cols="10" /></textarea>
@@ -100,11 +127,11 @@ permalink: /soumettre_projet/
                                        <legend style="color:  #c25e1b"> s’il y a un cours d’eau </legend> <!-- Titre du fieldset --> 
                                     <hr/>
                                          <label for="nom">A quelle distance est-il du village ?</label>
-                                         <input type="text" name=" " id=""class="form-control" />
+                                         <input type="text" name="demamde11" id=""class="form-control" />
 										 <label for="nom">Quel est le débit en étiage, en crue ? (si oui, combien de temps subsiste-t-il ?</label>
-                                         <input type="text" name=" " id=""class="form-control" />
+                                         <input type="text" name="demamde12" id=""class="form-control" />
 										 <label for="nom">Observations (propriété, protection, accès, dénivelé…)</label>
-                                         <textarea type="text" name="" id=""class="form-control" rows="3" cols="10" /></textarea>
+                                         <textarea type="text" name="demamde13" id=""class="form-control" rows="3" cols="10" /></textarea>
 
                                           
                                     </fieldset>
@@ -115,26 +142,26 @@ permalink: /soumettre_projet/
                                       <legend style="color:  #c25e1b">s’il y a des puits / forages</legend> <!-- Titre du fieldset --> 
                                    <hr/>
                                          <label for="nom">Nombre</label>
-                                         <input type="text" name=" " id=""class="form-control" />
+                                         <input type="text" name="demamde14" id=""class="form-control" />
 										 <label for="nom">Localisation (dans le village, à l’extérieur) préciser la distance.</label>
-                                         <input type="text" name=" " id=""class="form-control" />
+                                         <input type="text" name="demamde15" id=""class="form-control" />
 										 <label for="nom">Date de construction / financement</label>
-                                         <input type="text" name=" " id=""class="form-control" />
+                                         <input type="text" name="demamde16" id=""class="form-control" />
 										 <label for="nom">Profondeur</label>
-                                         <input type="text" name=" " id=""class="form-control" />
+                                         <input type="text" name="demamde17" id=""class="form-control" />
 										 <label for="nom">Equipement (inexistant, poulies, pompe manuelle, pompe électrique)</label>
-                                        <textarea type="text" name="" id=""class="form-control" rows="3" cols="10" /></textarea>
+                                        <textarea type="text" name="demamde18" id=""class="form-control" rows="3" cols="10" /></textarea>
 										 <label for="nom">Etat actuel (en cours d’utilisation, inutilisable)</label>
-                                         <input type="text" name=" " id=""class="form-control" />
+                                         <input type="text" name="demamde19" id=""class="form-control" />
 										 <label for="nom">Précision sur la nappe d’eau souterraine (profondeur, extension, qualité)</label>
-                                        <textarea type="text" name="" id=""class="form-control" rows="3" cols="10" /></textarea>
+                                        <textarea type="text" name="demamde20" id=""class="form-control" rows="3" cols="10" /></textarea>
 										 <label for="nom">Observations (propriété, protection, accès, dénivelé…)</label>
-                                         <input type="text" name=" " id=""class="form-control" />
+                                         <input type="text" name="demamde21" id=""class="form-control" />
 										 <label for="nom">Existe-t-il un comité de gestion de l’eau ? Si oui, mode de fonctionnement, 
 										 règlement ; y a-t-il des personnes formées technique / gestion)</label>
-                                        <textarea type="text" name="" id=""class="form-control" rows="3" cols="10" /></textarea>
+                                        <textarea type="text" name="demamde22" id=""class="form-control" rows="3" cols="10" /></textarea>
 										 <label for="nom"> Existence de mode de paiements ? (fontainier, paiement au seau, redevance, cotisation…)</label>
-                                         <textarea type="text" name="" id=""class="form-control" rows="3" cols="10" /></textarea>
+                                         <textarea type="text" name="demamde23" id=""class="form-control" rows="3" cols="10" /></textarea>
 										 
 
                                           
@@ -146,11 +173,11 @@ permalink: /soumettre_projet/
 									   <hr/>
 
                                          <label for="nom">Y a-t-il des marigots / mares / lacs qui subsistent pendant la saison sèche ?(profondeur, surface, durée dans l’année, localisation)</label>
-                                         <textarea type="text" name="" id=""class="form-control" rows="3" cols="10" /></textarea>
+                                         <textarea type="text" name="demamde24" id=""class="form-control" rows="3" cols="10" /></textarea>
 										 <label for="nom">L’utilisation de l’eau non potable entraine des maladies. Avez-vous données à ce sujet ? centre de santé ?</label>
-                                         <textarea type="text" name="" id=""class="form-control" rows="3" cols="10" /></textarea>
+                                         <textarea type="text" name="demamde25" id=""class="form-control" rows="3" cols="10" /></textarea>
 										 <label for="nom">Observations </label>
-                                         <input type="text" name=" " id=""class="form-control" />
+                                         <input type="text" name="demamde26" id=""class="form-control" />
 
                                           
                                     </fieldset>
@@ -166,7 +193,7 @@ permalink: /soumettre_projet/
                                          <label for="nom"> Présence de latrines (toilettes) dans le village ? Si oui :
                                                            combien ? localisation ? type de latrines ? </label>
                                           
-                                       <textarea type="text" name="" id=""class="form-control" rows="3" cols="10" /></textarea>
+                                       <textarea type="text" name="demamde27" id=""class="form-control" rows="3" cols="10" /></textarea>
 
                                     </fieldset>
 									
@@ -179,7 +206,7 @@ permalink: /soumettre_projet/
 									<hr/>   
 
                                          <label for="nom">De quelle manière la population est-elle prête à s’impliquer dans la réalisation du projet ?</label>
-                                         <textarea type="text" name="" id=""class="form-control" rows="3" cols="10" /></textarea>
+                                         <textarea type="text" name="demamde28" id=""class="form-control" rows="3" cols="10" /></textarea>
 
                                           
                                     </fieldset>
@@ -192,7 +219,7 @@ permalink: /soumettre_projet/
 									<hr/>
 
                                          <label for="nom">Quels sont les moyens humains et financiers de votre association ?</label>
-                                         <textarea type="text" name="" id=""class="form-control" rows="3" cols="10" /></textarea>
+                                         <textarea type="text" name="demamde29" id=""class="form-control" rows="3" cols="10" /></textarea>
 
                                           
                                     </fieldset>
@@ -204,7 +231,7 @@ permalink: /soumettre_projet/
 									<hr/>   
 
                                          <label for="nom">De quelle manière la population locale est-elle prête à s’impliquer dans la réalisation du projet ?</label>
-                                         <textarea type="text" name="" id=""class="form-control" rows="3" cols="10" /></textarea>
+                                         <textarea type="text" name="demamde30" id="" class="form-control" rows="3" cols="10" /></textarea>
 
                                           
                                     </fieldset>
@@ -215,16 +242,16 @@ permalink: /soumettre_projet/
                                        <legend style="color:  #c25e1b">DONNEES EXISTANTES</legend> <!-- Titre du fieldset --> 
                                    <hr/>
                                          <label for="nom">Cartes topographiques, géologiques ? (préciser l’échelle)</label>
-                                        <textarea type="text" name="" id=""class="form-control" rows="3" cols="10" /></textarea>
+                                        <textarea type="text" name="demamde31" id=""class="form-control" rows="3" cols="10" /></textarea>
 										 <label for="nom">Disposez-vous de photos des accès à l’eau</label>
-                                         <input type="text" name=" " id=""class="form-control" />
+                                         <input type="text" name="demamde32" id=""class="form-control" />
 										 <label for="nom">Préciser si une étude a déjà été réalisée par une ONG, une association, un bureau d’études ? dans quel domaine ? 
                                                            Existe-t-il des devis, des rapports d’études ? (géophysique, hydrologique, hydrogéologiques…)
                                                               Quelles en sont les conclusions ?</label>
-                                       <textarea type="text" name="" id=""class="form-control" rows="3" cols="10" /></textarea>
+                                       <textarea type="text" name="demamde33" id=""class="form-control" rows="3" cols="10" /></textarea>
 										<label for="nom">Des projets nationaux sont-ils en cours dans le domaine de l’eau ?
                                              Pourraient-ils aboutir dans le village ?</label>
-                                        <textarea type="text" name="" id=""class="form-control" rows="3" cols="10" /></textarea>
+                                        <textarea type="text" name="demamde34" id=""class="form-control" rows="3" cols="10" /></textarea>
                              
                                     
 		  
@@ -237,7 +264,5 @@ permalink: /soumettre_projet/
 			                              <p> Merci d'avoir répondu à notre formulaire, nous vous répondrons dans les plus bref délais</p>
 				                           <button type="submit" class="btn btn-primary btn-lg">Envoyer</button>
                                            <button type="reset" class="btn btn-secondary btn-lg">supprimer</button>
-                                         
-				 </div>
+</div>
 				 <hr>
-				   

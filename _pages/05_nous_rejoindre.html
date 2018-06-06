@@ -15,7 +15,7 @@ permalink: /nous_rejoindre/
 							  <div class="col-12">
 								  <div class="row ">
 				                     <div class ="col-6" >
-				                               <h2 style="color:#3377ff">Bulletin de soutien à E.S.D</h2>
+				                               <h2 style="color:#c25e1b">Bulletin de soutien à E.S.D</h2>
 					                                  <p>Notre ONG spécalisée dans le domaine de l'eau et de l'assainissement finance ses projets grace à vos différents don.</p>
 						                              <p>Un recu fiscale vous sera remis pour déduire de vos impots 66% de votre don. vous pouvez nous soutenir grace à allo association</p>
 						                             
@@ -42,43 +42,43 @@ permalink: /nous_rejoindre/
 										   
 			<hr/>							   
 										   
-         <form>
+         <form action="envoi1.php" method="post" enctype="application/x-www-form-urlencoded" name="formulaire">
 		 
-		        <h2 > Formulaire d'adhesion à l'association</h2>
+		        <h2 style="color:#c25e1b"> Formulaire d'adhesion à l'association</h2>
 			    <p>Veuillez remplir le  formulaire suivant, nous reviendrons vers vous plus tard.</p>
   
           <div class="form-row">
               <div class="col-md-4 mb-3">
 	
                  <label for="validationDefault01">Nom </label>
-                 <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value=""required>
+                 <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value=""required name="nom">
              </div>
               <div class="col-md-4 mb-3">
                 <label for="validationDefault02">Prénom</label>
-                <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="" required>
+                <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="" required name="prenom">
                </div>
                 <div class="col-md-4 mb-3">
                      <label for="validationDefaultUsername">Adresse Mail</label>
                      <div class="input-group">
                        <div class="input-group-prepend">
-                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                        <span class="input-group-text"  name="adresse" id="inputGroupPrepend2">@</span>
                        </div>
-                        <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Votre adresse mail" aria-describedby="inputGroupPrepend2" required>
+                        <input type="text" class="form-control" id="validationDefaultUsername"  name="mail" placeholder="Votre adresse mail" aria-describedby="inputGroupPrepend2" required>
                       </div>
                  </div>
           </div>
        <div class="form-row">
              <div class="col-md-6 mb-3">
                <label for="validationDefault03">Ville</label>
-               <input type="text" class="form-control" id="validationDefault03" placeholder="Ville " required>
+               <input type="text" class="form-control" id="validationDefault03"  name="ville" placeholder="Ville " required>
             </div>
           <div class="col-md-3 mb-3">
              <label for="validationDefault04">Pays</label>
-             <input type="text" class="form-control" id="validationDefault04" placeholder="Pays" required>
+             <input type="text" class="form-control" id="validationDefault04"  name="pays"placeholder="Pays" required>
            </div>
            <div class="col-md-3 mb-3">
              <label for="validationDefault05">Code Postale</label>
-              <input type="text" class="form-control" id="validationDefault05" placeholder="Code Postale" required>
+              <input type="text" class="form-control" id="validationDefault05"  name="code"placeholder="Code Postale" required>
           </div>
        </div>
   
@@ -106,7 +106,7 @@ permalink: /nous_rejoindre/
 </div>	
 				  
 				                                  
-			
+
 				                               
 					   
 		     	                                         
