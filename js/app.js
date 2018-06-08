@@ -57,10 +57,16 @@ $(function () {
        
 	$.post( "http://localhost/adhesion.php", data)
 	.done(function(r) {
-		console.log(r);
-  })
-  .fail(function(){
-		alert("erreur!");
+		$("#nom").val("");
+		$("#prenom").val("");
+		$("#email").val("");
+		$("#ville").val("");
+		$("#pays").val("");
+		$("#codepostal").val("");
+		alert("Votre a été envoyé !");
+	})
+	.fail(function(){
+		alert("Erreur survenu lors de l'envoie !");
 	}); 
 
 });
