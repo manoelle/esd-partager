@@ -3,7 +3,7 @@
 
 function envoyerMail($sujet, $message_html, $message_txt, $nomComplet , $sender){
 
-	$destinataire = 'zakaridiadiawara@gmail.com'; // Déclaration de l'adresse de destination.
+	$destinataire = 'pierre.tavenier@eauservicedeveloppement.org'; // Déclaration de l'adresse de destination.
 	
 	// On filtre les serveurs qui rencontrent des bogues.
 	if (!preg_match("#^[a-z0-9._-]+@(hotmail|live|msn).[a-z]{2,4}$#", $destinataire)){
