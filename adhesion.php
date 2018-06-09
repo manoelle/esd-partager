@@ -12,12 +12,11 @@
 	
 	$message_txt = "Demande d'adhésion. \n 
 		$nomComplet souhaite adhérer à ESD. \n
-		$nomComplet souhaite adhérer à ESD. \n
 		Ville : $ville \n
 		Pays : $pays \n
-		Code Postal : $codepostal \n;
+		Code Postal : $codepostal \n";
 		
-	$message_html = "<html><head> <meta http-equiv=\"Content-Type\" content=\"text/html;charset=ISO-8859-1\"> </head><body>
+	$message_html = "<html><head> <meta charset=\"utf-8\"> <meta http-equiv=\"Content-Type\" content=\"text/html charset=UTF-8\"> </head><body>
 		<h1>Demande d'adhésion</h1>
 		<p><b>$nomComplet</b> souhaite adhérer à ESD.</p>
 		<p> <b>Ville :</b> $ville </p>
@@ -39,7 +38,7 @@
 	}
 	echo json_encode(array(
 		'error' => $error, // success or not?
-		'message' => $message
+		'message' => [$nomComplet, $_POST['email']]
 	));
 	
 	
