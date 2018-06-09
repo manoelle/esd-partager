@@ -1,116 +1,124 @@
+--- 
+  layout: page 
+  title: Nous réjoindre 
+  permalink: /nous_rejoindre/
 ---
-layout: page
-title: Nous réjoindre
-permalink: /nous_rejoindre/
----
 
-  <div class="container">                                  
-                             
-         							 <!-- formulaire pour une donnation -->
-		                     
+<div class="container pt-5 pb-5">
 
+  <!-- formulaire pour une donnation -->
 
-							 <hr/>
+  <div class="row">
+    <div class="col-12 col-md-6">
 
-							  <div class="col-12">
-								  <div class="row ">
-				                     <div class ="col-6" >
-				                               <h2 style="color:#c25e1b">Bulletin de soutien à E.S.D</h2>
-					                                  <p>Notre ONG spécalisée dans le domaine de l'eau et de l'assainissement finance ses projets grace à vos différents don.</p>
-						                              <p>Un recu fiscale vous sera remis pour déduire de vos impots 66% de votre don. vous pouvez nous soutenir grace à allo association</p>
-						                             
-						                </div>
-						                     
-											  
-							            <div class ="col-6" > 
-										  <div class="card" style="width: 18rem;">
-                                               <div class="card-body">
-                                                  <h5 class="card-title">HelloAsso</h5>
-                                                    <p class="card-text">Allo Association! Vous pouvez nous soutenir avec:</p>
-                                                       <a href="#" class="btn btn-primary"> HelloAsso </a>
-                                                </div>
-                                            </div>
-										
-										
-										 <p> </p>  <a href="#" class="button"></a>
-										
-                                         </div>										
-									</div>	
-				                  </div>	
-				
-										   
-										   
-			<hr/>							   
-										   
-         <form action="envoi1.php" method="post" enctype="application/x-www-form-urlencoded" name="formulaire">
-		 
-		        <h2 style="color:#c25e1b"> Formulaire d'adhesion à l'association</h2>
-			    <p>Veuillez remplir le  formulaire suivant, nous reviendrons vers vous plus tard.</p>
-  
-          <div class="form-row">
-              <div class="col-md-4 mb-3">
-	
-                 <label for="validationDefault01">Nom </label>
-                 <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value=""required name="nom">
-             </div>
-              <div class="col-md-4 mb-3">
-                <label for="validationDefault02">Prénom</label>
-                <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="" required name="prenom">
-               </div>
-                <div class="col-md-4 mb-3">
-                     <label for="validationDefaultUsername">Adresse Mail</label>
-                     <div class="input-group">
-                       <div class="input-group-prepend">
-                        <span class="input-group-text"  name="adresse" id="inputGroupPrepend2">@</span>
-                       </div>
-                        <input type="text" class="form-control" id="validationDefaultUsername"  name="mail" placeholder="Votre adresse mail" aria-describedby="inputGroupPrepend2" required>
-                      </div>
-                 </div>
-          </div>
-       <div class="form-row">
-             <div class="col-md-6 mb-3">
-               <label for="validationDefault03">Ville</label>
-               <input type="text" class="form-control" id="validationDefault03"  name="ville" placeholder="Ville " required>
-            </div>
-          <div class="col-md-3 mb-3">
-             <label for="validationDefault04">Pays</label>
-             <input type="text" class="form-control" id="validationDefault04"  name="pays"placeholder="Pays" required>
-           </div>
-           <div class="col-md-3 mb-3">
-             <label for="validationDefault05">Code Postale</label>
-              <input type="text" class="form-control" id="validationDefault05"  name="code"placeholder="Code Postale" required>
-          </div>
-       </div>
-  
-  
-         <p> Les frais d'adhesions sont:</br>
-            Actif, Retraité : 50 euros</br>  
-            Etudiant , chomeur : 15 euros </br>
-         </p>
-           <div class="form-group">
-             <div class="form-check">
-             <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-             <label class="form-check-label" for="invalidCheck2">
-                 J'accepte les termes et les  conditions
-            </label>
-         </div>
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-primary mb-4">
+              Bulletin de soutien à E.S.D
+          </h2>
+          <p>Notre ONG spécalisée dans le domaine de l'eau et de l'assainissement finance ses projets grace à vos différents don.</p>
+          <p>Un recu fiscale vous sera remis pour déduire de vos impots 66% de votre don. vous pouvez nous soutenir grace à allo
+            association</p>
+    
         </div>
-		
-		  <!-- envoyer les données du formulaire  -->
-  
-            <button class="btn btn-primary btn-lg" type="submit">Envoyer </button>
-            <button type="reset" class="btn btn-secondary btn-lg">supprimer</button>
-    </form> 
-	
-	<hr/>	
-</div>	
-				  
-				                                  
+        <div class="col-12">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">HelloAsso</h5>
+              <p class="card-text">Allo Association! Vous pouvez nous soutenir avec:</p>
+              <a href="#" class="btn btn-primary"> HelloAsso </a>
+            </div>
+          </div>
+          <p> </p>
+          <a href="#" class="button"></a>
+    
+        </div>
+      </div>
+    </div>
 
-				                               
-					   
-		     	                                         
-				
-		                               
-						
-				
+    <div class="col-12 col-md-6">
+      
+      <div class="row col-12">
+        <h2 class="text-primary mb-4"> Adhésion à l'association</h2>
+        <p>Veuillez remplir le formulaire suivant, nous reviendrons vers vous plus tard.</p>
+      </div>
+        <div id="demande_adhesion" >
+        
+            <div class="form-row mb-3 ">
+              <div class="col-md-6">
+                <label for="nom">Nom </label>
+                <input id="nom" name="nom" type="text" class="form-control" placeholder="Votre nom" value="" required />
+                  <div class="invalid-feedback">
+                    Veuillez saisir votre nom
+                  </div>
+              </div>
+              <div class="col-md-6">
+                <label for="prenom">Prénom</label>
+                <input name="prenom" type="text" class="form-control" id="prenom" placeholder="Votre prénom" value="" required>
+                <div class="invalid-feedback">
+                    Veuillez saisir votre prenom
+                </div>
+              </div>
+            </div>
+            <div class="form-row mb-3">
+            <div class="col-12">
+              <label for="email">Adresse Mail</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" for="email">@</span>
+                </div>
+                <input name="email" type="email" class="form-control" id="email" placeholder="Votre adresse mail" aria-describedby="inputGroupPrepend2"
+                  required>
+                  <div class="invalid-feedback">
+                      Veuillez saisir votre adresse mail
+                  </div>
+              </div>
+            </div>
+            </div>
+            <div class="form-row mb-3">
+              <div class="col-md-6">
+                <label for="ville">Ville</label>
+                <input name="ville" type="text" class="form-control" id="ville" placeholder="Ville " required>
+                <div class="invalid-feedback">
+                    Veuillez saisir votre ville
+                </div>
+              </div>
+              <div class="col-md-3">
+                <label for="pays">Pays</label>
+                <input name="pays" type="text" class="form-control" id="pays" placeholder="Pays" required>
+                <div class="invalid-feedback">
+                    Veuillez saisir votre pays
+                  </div>
+              </div>
+              <div class="col-md-3">
+                <label for="codepostal">Code Postale</label>
+                <input name="codepostal" type="text" class="form-control" id="codepostal" placeholder="Code Postale" >
+              </div>
+            </div>
+        
+        
+            <p> Les frais d'adhesions sont:</br>
+              Actif, Retraité : 50 euros</br>
+              Etudiant , chomeur : 15 euros </br>
+            </p>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">
+                  J'accepte les termes et les conditions
+                </label>
+              </div>
+            </div>
+        
+            <!-- envoyer les données du formulaire  -->
+        
+            <button id="envoyer_demander_adhesion" class="btn btn-primary btn-lg">
+              Envoyer 
+            </button>
+            <button id="annuler" type="reset" class="btn btn-outline-danger btn-lg">Annuler</button>
+          </div>
+    </div>
+
+  </div>
+
+</div>
