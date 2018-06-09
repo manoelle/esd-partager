@@ -2,34 +2,42 @@
   identifiant: president
   role: Président
   avatar: images/lespinat.jpg
-  resume: A créer Eau Service Développement (ESD) avec d’anciens membres d’Hydraulique Sans Frontières Ile de France pour associer accès à l’eau et développement économique en zones rurales dans les pays du Sud.
-  details: Diplômé ingénieur du conservatoire des arts et métier, a fait Presque toute sa carrière chez Valeo, fournisseur des constructeurs automobiles. Chez Valeo a exercé plusieurs métiers, dans le domaine de la recherche et développement, et chef de projet. Impliqué depuis 2005 dans des projets de développement dans les pays du sud, dans le domaine de l’eau et de l’assainissement. Membre d’un collectif d’ONG, Groupe initiatives, président du groupe Initiatives pendant 5 ans, membre du Cade coordination sud, collectif des collectifs d’ONG, pendant 8 ans, et trésorier de coordination sud pendant 4 ans Christian Lespinats est administrateur de blueEnergy France www.blueenergy.fr
+  details:
+    - titre: "A créer Eau Service Développement (ESD) avec d’anciens membres d’Hydraulique Sans Frontières Ile de France pour associer accès à l’eau et développement économique en zones rurales dans les pays du Sud." 
+    - titre: "Diplômé ingénieur du conservatoire des arts et métier, a fait Presque toute sa carrière chez Valeo, fournisseur des constructeurs automobiles. Chez Valeo a exercé plusieurs métiers, dans le domaine de la recherche et développement, et chef de projet. Impliqué depuis 2005 dans des projets de développement dans les pays du sud, dans le domaine de l’eau et de l’assainissement."
+    - titre: "Membre d’un collectif d’ONG, Groupe initiatives, président du groupe Initiatives pendant 5 ans, membre du Cade coordination sud, collectif des collectifs d’ONG, pendant 8 ans, et trésorier de coordination sud pendant 4 ans Christian Lespinats est administrateur de blueEnergy France www.blueenergy.fr"
 
 - nom:  Pierre TAVENIER
   identifiant: vice-president
   role: Vice président
   avatar: images/pierre.jpg
-  resume: A créé Eau Service Développement (ESD) avec d’anciens membres d’Hydraulique Sans Frontières Ile de France pour associer accès à l’eau et développement économique en zones rurales dans les pays du Sud EM Lyon,
-  details: Master Competitive Intelligence à l’Université Paris-Dauphine, il a été dirigeant de grandes entreprises dans les domaines de l’ingénierie, de l’aménagement, du tourisme et de l’environnement (déchets, énergie). Il a conduit et organisé le développement de nombreuses opérations et projets en France et dans le monde par croissance externe et transmission des savoir-faire, organisé des financements, des alliances et des désinvestissements au sein de grands groupes. (CDC, ACCOR, SPIE, SUEZ ENVIRONNEMENT). Comme business angel, il est impliqué depuis plusieurs années dans la création, la reprise et la gouvernance des entreprises et des organisations. Il a constitué Sustainable Initiatives for Water (SIWA-FGTO),un fonds de dotation pour le financement de projets dans l’eau en faveur de populations vulnérables www.siwa-fgto.org Pierre Tavernier est administrateur de blueEnergy France www.blueenergy.fr
+  details:
+    - titre: "A créé Eau Service Développement (ESD) avec d’anciens membres d’Hydraulique Sans Frontières Ile de France pour associer accès à l’eau et développement économique en zones rurales dans les pays du Sud EM Lyon, Master Competitive Intelligence à l’Université Paris-Dauphine, il a été dirigeant de grandes entreprises dans les domaines de l’ingénierie, de l’aménagement, du tourisme et de l’environnement (déchets, énergie)."
+    - titre: "Il a conduit et organisé le développement de nombreuses opérations et projets en France et dans le monde par croissance externe et transmission des savoir-faire, organisé des financements, des alliances et des désinvestissements au sein de grands groupes. (CDC, ACCOR, SPIE, SUEZ ENVIRONNEMENT). Comme business angel, il est impliqué depuis plusieurs années dans la création, la reprise et la gouvernance des entreprises et des organisations."
+    - titre: "Il a constitué Sustainable Initiatives for Water (SIWA-FGTO),un fonds de dotation pour le financement de projets dans l’eau en faveur de populations vulnérables www.siwa-fgto.org Pierre Tavernier est administrateur de blueEnergy France www.blueenergy.fr"
 
 - nom:  Phillipe CONTE
   identifiant: tresorier
   role: Trésorier
   avatar: images/philipe.jpg
-  resume: A intégrer Eau Service Développement (ESD) pour associer accès à l’eau et développement économique en zones rurales dans les pays du Sud.
-  details: 	Il a été sensibilisé sur ce thème lors de sa jeunesse qu’il a passé en extreme-orient et en afrique où il a suivi son père qui travaillait dans l’hévéaculture. Maitre es Sciences Economiques et diplômé des examens supérieurs de comptabilité, il a été Directeur Comptable de grandes entreprises dans les domaines de la grande distribution, de l’industrie agro-aimentaire, le transport ferroviaire et les services Il a manage des services, mis en place des projets informatiques et d’organisation, réalisé des études dans l’ensemble des activités financières et fiscales des sociétés, suivi les budgets. (Carrefour, Galerie Lafayette, Monoprix , Danone, SNCF, Antargaz). Philippe Conté est président de l’association les Amis de Tuili (www.amisdetuili.org). Cette association participe au développement d’un groupe de 13 villages au Burkina et notamment dans le domaine de l’eau potable. Philippe Conté est trésorier de ESD et assure l’établissement des budgets des projets et le suivi.
+  details: 
+    - titre: "A intégrer Eau Service Développement (ESD) pour associer accès à l’eau et développement économique en zones rurales dans les pays du Sud. Il a été sensibilisé sur ce thème lors de sa jeunesse qu’il a passé en extreme-orient et en afrique où il a suivi son père qui travaillait dans l’hévéaculture."
+    - titre: " Maitre es Sciences Economiques et diplômé des examens supérieurs de comptabilité, il a été Directeur Comptable de grandes entreprises dans les domaines de la grande distribution, de l’industrie agro-aimentaire, le transport ferroviaire et les services Il a manage des services, mis en place des projets informatiques et d’organisation, réalisé des études dans l’ensemble des activités financières et fiscales des sociétés, suivi les budgets. (Carrefour, Galerie Lafayette, Monoprix , Danone, SNCF, Antargaz)."
+    - titre: "Philippe Conté est président de l’association les Amis de Tuili (www.amisdetuili.org). Cette association participe au développement d’un groupe de 13 villages au Burkina et notamment dans le domaine de l’eau potable. Philippe Conté est trésorier de ESD et assure l’établissement des budgets des projets et le suivi."
 
 - nom:  Jean-Marie GARCIN
   identifiant: secretaire-general
   role: Sécretaire Gérérale
   avatar: images/jean.jpg
-  resume: En tant que PDG de SOS MACHINES OUTILS, les projets menés par mes enfants ou leurs amis vers l'Afrique francophone étaient soutenus par le mécénat de mon entreprise.
-  details: Depuis ma retraite je travaille comme bénévole essentiellement dans les actions humanitaires destinées aux pays à faible indice de développement humain. (commerce équitable, micro crédit, …). L'eau est l'élément essentiel de la vie humaine et, pourtant, la cause première de la mortalité au monde, loin devant les famines et les guerres. Ainsi je remercie ESD de m'offrir une excellente application pour mes connaissances linguistiques, administratives et juridiques.
+  details:
+    - titre: "En tant que PDG de SOS MACHINES OUTILS, les projets menés par mes enfants ou leurs amis vers l'Afrique francophone étaient soutenus par le mécénat de mon entreprise. Depuis ma retraite je travaille comme bénévole essentiellement dans les actions humanitaires destinées aux pays à faible indice de développement humain. (commerce équitable, micro crédit, …). L'eau est l'élément essentiel de la vie humaine et, pourtant, la cause première de la mortalité au monde, loin devant les famines et les guerres."
+    - titre: "Ainsi je remercie ESD de m'offrir une excellente application pour mes connaissances linguistiques, administratives et juridiques."
   
 - nom:  Olivier CELIER
   identifiant: expert-technique
   role: Expert Technique
   avatar: images/celier.jpg
-  resume: Ingénieur agronome, Ingénieur Civil du Génie Rural (Paris) 1970. Né 4/12/46 5 enfants Parisien. Douze années d’expatriation professionnelle dont huit en Afrique rurale.
-  details: Premières années en bureau d’études de développement en irrigation, adduction d’eau potable, assainissement et traitement des déchets urbains. Etudes et réalisations sur le terrain (3 ans expert hydraulique pour 30 000 ha de riz au Mali). Suite de l’activité  développement international de services de délégation privée de services publics d’eau potable, d’assainissement ou d’électricité, notamment en Afrique et en Amérique du Sud. Expert en conception de projet d’adduction d’eau potable et d’irrigation en zone rurale africaine.
+  details: 
+    - titre: "Ingénieur agronome, Ingénieur Civil du Génie Rural (Paris) 1970. Né 4/12/46 5 enfants Parisien. Douze années d’expatriation professionnelle dont huit en Afrique rurale. Premières années en bureau d’études de développement en irrigation, adduction d’eau potable, assainissement et traitement des déchets urbains. Etudes et réalisations sur le terrain (3 ans expert hydraulique pour 30 000 ha de riz au Mali)."
+    - titre: "	Suite de l’activité : développement international de services de délégation privée de services publics d’eau potable, d’assainissement ou d’électricité, notamment en Afrique et en Amérique du Sud. Expert en conception de projet d’adduction d’eau potable et d’irrigation en zone rurale africaine."
 
