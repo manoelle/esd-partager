@@ -24,6 +24,7 @@ layout: default
       <span class="sr-only">Next</span>
     </a>
   </div>
+  
 
 <div class="container-fluid presentation">
   
@@ -37,7 +38,7 @@ layout: default
         <div class="row">
             {% for presentation in site.data.presentations %}
               <div class="col-12 col-md-4 text-center mt-3">
-                <i class="{{presentation.icon}} icon major bg-primary"></i> 
+                <i class="{{presentation.icon}} icon major bg-primary" id="{{presentation.id}}"></i> 
                 <h2 class="mb-4 text-primary" >{{presentation.titre}}</h2>
                 {% for contenu in presentation.contenu %}
                   <p>
@@ -59,13 +60,14 @@ layout: default
 <div class="container-fluid responsable">
   <div class="container">
     <div class="row">
-      <div class="col-12">
-        <h1 class="h1 mt-5 text-center">
-          LES RESPONSABLES 
+      <div class="col-12" >
+        <h1 class="h1 mt-5 text-center "style="color:#c25e1b">
+		  
+          Les responsables et animateurs de l'association ESD
         </h1>
         <hr />
         <p class="text-center">
-          Nous comptons plusieurs membres de part le monde, qui exerce dans divers activités diverses.
+          Nos membres exercent dans divers domaines d'activité de par le monde.
         </p>
       </div>
       <div class="col-12">
@@ -84,7 +86,7 @@ layout: default
 
                 </div>
                 <div class="card-footer clearfix" style="background-color: transparent" >
-                    <a href="#" class="btn  card-link float-left">
+                    <a href= "mailto:{{responsable.address}}" class="btn  card-link float-left">
                       Contacter
                     </a>
                     <div class="btn btn-outline-primary card-link float-right" 

@@ -21,13 +21,15 @@ function envoyerDemander(){
   demandeIsSending();
 
   // Envoie la demande 
-  $.post( "http://localhost/adhesion.php", data)
+  $.post( "http://eauservicedeveloppement.org/adhesion.php", data)
     .done(function(r) {
       demandeIsSended();
-      alert("Votre a été envoyé !");
+	  console.log(r);
+      alert("Votre message a été envoyé !");
   })
-  .fail(function(){
+  .fail(function(e){
     demandeIsSended();
+	console.log(e);
     alert("Erreur survenu lors de l'envoie !");
   }); 
 

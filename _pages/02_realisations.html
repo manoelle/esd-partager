@@ -6,22 +6,23 @@ permalink: /realisations/
 
 <div class="container pt-5 pb-5">
 
+
     {% for r in site.data.realisations %}
         <div class="row featurette border bg-white shadow-sm mb-5 p-3 " id={{r.identifiant}}>
             <div class="col-12" >
                 <div class="row">
                     <div class="col-md-7 order-md-{{r.contextOrder}}"> 
-                        <h2 class="featurette-heading text-danger">
+                        <h2 class="featurette-heading" style="color:  #c25e1b">
                             {{r.titre}} ({{r.annee}})
                         </h2>
                         <hr />
-                        <p class="lead">
+                        <p class="text-justify">
                             {{r.context}}
                         </p> 
                         <div class="mb-3">
-                            <h3 class="mb-3">Projet suivi par </h3>
+                            <h4 class="mb-3 text-success">Projet suivi par : </h4>
                             {% for acteur in r.acteurs %}    
-                                <button type="button" class="btn btn-light mt-2" data-toggle="tooltip" data-placement="top" title="{{acteur.role}}" >
+                                <button type="button" class="btn btn-light mt-2 text-primary" data-toggle="tooltip" data-placement="top" title="{{acteur.role}}" >
                                     {{acteur.nom}}
                                 </button>
                             {% endfor %} 
@@ -70,13 +71,13 @@ permalink: /realisations/
                     <div class="card card-body">
                         
                         {% if r.titreEtude %}
-                            <h1 class="h1">
+                            <h1 class="h3">
                                 {{r.titreEtude}}
                             </h1> 
-                            <p class="lead">
+                            <p class="text-justify">
                                 {{r.descriptionEtude}}
                             </p>
-                            <ul class="lead"> 
+                            <ul class="text-justify"> 
                                 {% for etude in r.etudes %}
                                     <li class="mt-2" >{{etude.titre}}</li>    
                                 {% endfor %} 
@@ -84,13 +85,13 @@ permalink: /realisations/
                         {% endif %}
 
                         
-                        <h1 class="h1">
+                        <h1 class="h3">
                             {{r.titreDeroulement}}
                         </h1>
-                        <p class="lead">
+                        <p class="text-justify">
                             {{r.descriptionDeroulement}}
                         </p>
-                        <ul class="lead"> 
+                        <ul class="text-justify"> 
                             {% for mission in r.missions %}
                                 <li class="mt-2">{{mission.titre}}</li>    
                             {% endfor %} 
@@ -99,16 +100,26 @@ permalink: /realisations/
                             {% for m in r.medias %}
                                 {% if m.video %} 
                                     <div class="col-12 col-md-6">
-                                        <iframe width="100%" height="500" frameborder="10" style="border:10"src="{{m.src}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                        <iframe width="100%" height="500" frameborder="10" style="border:10" src="{{m.src}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                                     </div>
                                 {% endif %} 
-                                {% if m.map %} 
+								
+								
+                                <!-- {% if m.map %} 
                                     <div class="col-12 col-md-6">
                                         <iframe src="{{m.src}}" width="100%" height="500" frameborder="10" style="border:10" allowfullscreen></iframe>
                                     </div>
+                                {% endif %}   -->
+								
+								
+								
+								{% if m.images %} 
+                                    <div class="col-12 col-md-6">
+                                        <img  width="100%" height="50%" frameborder="10" style="border:10" src="{{m.src}}" />
+                                    </div>
                                 {% endif %}  
                             {% endfor %} 
-                        </div>
+                        </div> 
                     </div>
                     
                 </div>
