@@ -1,9 +1,9 @@
 - titre : "Projet de Tuilli"
   identifiant: "projet-tuili"
   collaboration: "En collaboration avec les amis de Tuilli"
-  context : "L’association essonnienne « Les amis de Tuili » participe depuis plus de 30 ans, au développement de 13 villages à Tuili au Burkina par le financement d’écoles, d’ouvrages d’accès à l’eau, etc. La zone géographique se situe en zone sahélienne à environ 70 km au sud de Ouagadougou. Dès 2008, les conseillers municipaux des villages demandent à l’association de résoudre le principal problème des 15 000 habitants, l’eau potable."
-  annee: "2017 / 2018"
-  contextOrder: 1
+  CONTÉxt : "L’association essonnienne « Les amis de Tuili » participe depuis plus de 30 ans, au développement de 13 villages à Tuili au Burkina par le financement d’écoles, d’ouvrages d’accès à l’eau, etc. La zone géographique se situe en zone sahélienne à environ 70 km au sud de Ouagadougou. Dès 2008, les conseillers municipaux des villages demandent à l’association de résoudre le principal problème des 15 000 habitants, l’eau potable."
+  annee: "2015 / 2018"
+  CONTÉxtOrder: 1
   imageOrder: 2
   images:
     - src: "/images/tu00.jpg"
@@ -16,17 +16,17 @@
       role: "Président de ESD"
     - nom: "Pierre TAVERNIER"
       role: "Vice-Président de ESD"
-    - nom: "Philippe CONTE"
+    - nom: "Philippe CONTÉ"
       role: "Trésorier de ESD"
     - nom: "Olivier CELIER"
       role: "Expert de ESD"
-  titreDeroulement : "Déroulement du projet et actions menées:"
+  titreDeroulement : "Déroulement du projet et actions meneés:"
   descriptionDeroulement : "Après une étude réalisée sur place par des étudiants de l’institut 2Ie de Ouagadougou, l’Association des Conseillers Municipaux de Tuili avec l’aide technique et financière de l’association les Amis de Tuili a réalisé le projet suivant : "
   missions:
     - titre: "Accès à l’eau permettant d’avoir un point d’eau pour 300 personnes à moins d'un (1) km A/R des habitations"
     - titre: "Réalisation 20 forages neufs avec des pompes India Mark 2"
-    - titre: "Réhabilitation de six (6 )forages existants"
-    - titre: "Création de superstructures associées (margelle, murs de clôture, abreuvoir, etc.) "
+    - titre: "Réhabilitation de six forages existants"
+    - titre: "Création de superbes structures associées (margelle, murs de clôture, abreuvoir, etc.) "
     - titre: "Volet assainissement: 9 latrines scolaires SANPLAT, des lave-mains dans toutes les écoles et centres de santé"
     - titre: "Mise en place d’un service de l’eau conforme à la législation burkinabé " 
     - titre: "Mise en place de Comités de gestion par forage"
@@ -44,9 +44,9 @@
 
 - titre: "Projet de Tillabery"
   identifiant: "projet-tillabery"
-  context : "Le coût de ce projet, 150 000 € environ, a été co-financé par la municipalité de Draveil et une subvention du Sedif- Syndicat des Eaux d'Île-de-France. Ce projet de partenariat malgré un contexte politique difficile a pu être mené avec des partenaires confiants et des entreprises locales compétentes. "
+  CONTÉxt : "Le coût de ce projet, 150 000 € environ, a été co-financé par la municipalité de Draveil et une subvention du Sedif- Syndicat des Eaux d'Île-de-France. Ce projet de partenariat malgré un CONTÉxte politique difficile a pu être mené avec des partenaires confiants et des entreprises locales compétentes. "
   annee: "2007 / 2008"
-  contextOrder: 2
+  CONTÉxtOrder: 2
   imageOrder: 1
   images:
     - src: "/images/ti00.jpg"
@@ -61,8 +61,8 @@
     
     - nom: "Olivier CELIER"
       role: "Expert de ESD"
-  titreDeroulement : "Déroulement du projet et actions menées:"
-  descriptionDeroulement : "Après une étude menée par Monsieur Antoine Bouvier hydrogéologue français, et en partenariat avec une association nigérienne le RAIL, le projet a permis : "
+  titreDeroulement : "Déroulement du projet et actions meneés:"
+  descriptionDeroulement : "Après une étude menée par Monsieur Antoine Bouvier hydraugéologue français, et en partenariat avec une association nigérienne le RAIL, le projet a permis : "
   missions:
     - titre: "L’accès à l’eau avec un point d’eau pour 350 personnes dans 10 villages autour de Tillabéry"
     - titre: "La réalisation de 10 forages neufs  "
@@ -84,9 +84,9 @@
          
 - titre: "Projet 'Soeurs de Gaoua'"
   identifiant: "projet-soeur-gaoua"
-  context : "La communauté des sœurs de l’annonciation de Bobo-Dioulasso(les SAB) gère un collège-lycée à Gaoua avec environ 500 élèves. L’alimentation en eau du collège était réalisée par l’eau municipale de Gaoua ce qui coûtait cher, et ne permettait pas le développement du potager. "
+  CONTÉxt : "La communauté des sœurs de l’annonciation de Bobo-Dioulasso(les SAB) gère un collège-lycée à Gaoua avec environ 500 élèves. L’alimentation en eau du collège était réalisée par l’eau municipale de Gaoua ce qui coûtait cher, et ne permettait pas le développement du potager. "
   annee: "2013 / 2017"
-  contextOrder: 1
+  CONTÉxtOrder: 1
   imageOrder: 2
   images: 
     - src: "/images/ti00.jpg"
@@ -100,22 +100,22 @@
       role: "Président de ESD"
     - nom: "Pierre TAVERNIER"
       role: "Vice-Président de ESD"
-    - nom: "Philippe CONTE"
+    - nom: "Philippe CONTÉ"
       role: "Trésorier de ESD"
     - nom: "Olivier CELIER"
       role: "Expert de ESD"
-  titreDeroulement : "Déroulement du projet et actions menées:"
-  descriptionDeroulement : "Après avoir compris les problèmes du collège des sœurs à Gaoua, le projet a été réalisé en plusieurs étapes"
+  titreDeroulement : "Déroulement du projet et actions meneés:"
+  descriptionDeroulement : "Après avoir compris les problèmes du collège des sœurs à Gaoua, le projet a été réalisé en plusieurs étapes:"
   missions:
     - titre: "2013 Automatisation de la pompe :
 ESD a fait automatiser la pompe Volonta du collège. Un panneau solaire alimente un moteur électrique. Une courroie la relie à la roue de la pompe.
 Le débit peut passer de 700 litres/heure par la force humaine à 2 m3/heure avec le système mis en place. 
 Une formation a été organisée à Bobo-Dioulasso avec Mohamed de l’association Pronatura. Le formateur a donné une formation à la gestion de l’eau dans les potagers et a fourni du matériel pour mettre en œuvre ces principes."
 
-    - titre: "2014 Bilan des actions menées : L’automatisation de la pompe a apporté un mieux-être mais l’eau est loin du potager, et les élèves en internat sont alimentés par l’eau de ville,
+    - titre: "2014 Bilan des actions meneés : L’automatisation de la pompe a apporté un mieux-être mais l’eau est loin du potager, et les élèves en internat sont alimentés par l’eau de ville.
     Le matériel fourni par Pronatura n’est pas solide, et non réparable. Les potagers sont à la dérive."
 
-    - titre: "2015 Réhabilitation de l’ancien forage du collège, et formation avec Sam : réhabilitation de l’ancien forage, et du réseau. Formation à l’agro-écologie par Sam disciple burkinabé de Pierre Rabhit, ilan positif des actions."
+    - titre: "2015 Réhabilitation de l’ancien forage du collège, et formation avec Sam : réhabilitation de l’ancien forage, et du réseau. Formation à l’agro-écologie par Sam disciple burkinabé de Pierre Rabhi, bilan positif des actions."
 
     - titre: "2016 Approfondissement des actions : Nouvelle formation par Sam (Apad Sanguié), démultiplication des formations par les élèves de terminale, pour les élèves des classes inférieures, agrandissement du potager, et soutien par le service de l’agriculture de Gaoua."
 
@@ -129,11 +129,11 @@ Une formation a été organisée à Bobo-Dioulasso avec Mohamed de l’associati
      
     
 
-- titre: "Projet du Benin"
+- titre: "Projet du Bénin"
   identifiant: "projet-benin"
-  context : "Le village de Gbahouété (5.000 habitants environ) est situé dans la commune d’Ajahouéré (25 000 habitants environ ) elle-même située à 80 km au nord de Porto Novo au BéninLe village, réparti sur une colline, n’a qu’un seul point d'eau potable privé. Ni le dispensaire, ni l’école n’ont d’accès à l’eau potable."
+  CONTÉxt : "Le village de Gbahouété (5.000 habitants environ) est situé dans la commune d’Ajahouéré (25 000 habitants environ ) elle-même située à 80 km au nord de Porto Novo au Bénin. Le village, réparti sur une colline, n’a qu’un seul point d'eau potable privé. Ni le dispensaire, ni l’école n’ont d’accès à l’eau potable."
   annee: "2015 / 2017"
-  contextOrder: 2
+  CONTÉxtOrder: 2
   imageOrder: 1
   images:
     - src: "/images/be00.jpg"
@@ -178,9 +178,9 @@ Une formation a été organisée à Bobo-Dioulasso avec Mohamed de l’associati
       
 - titre: Projet de Cameroun
   identifiant: projet-cameroun
-  context :  Le projet au Cameroun été réalisé dans la période de 2014/2015 dans la province de MV’I, et N'KAN
+  CONTÉxt :  Le projet au Cameroun été réalisé dans la période de 2014/2015 dans la province de MV’I, et N'KAN
   annee: 2014 / 2015
-  contextOrder: 1
+  CONTÉxtOrder: 1
   imageOrder: 2
   images:
     - src: /images/cam00.jpg
@@ -192,10 +192,10 @@ Une formation a été organisée à Bobo-Dioulasso avec Mohamed de l’associati
    
     - nom: Olivier CELIER
       role: Expert de ESD 
-  titreDeroulement : "Déroulement du projet et actions menées:"
+  titreDeroulement : "Déroulement du projet et actions meneés:"
   descriptionDeroulement : "Les villages de Mv’i et N’kan sont dans la région Sud du Cameroun, à une dizaine de kilomètres au sud-est de la Commune d’Ebolowa. Ils comprennent environ 1 000 habitants (en 2030, horizon du projet), entièrement dépourvus d’eau potable non pathogène. Le projet a consisté en :"
   missions:
     - titre: Deux captages de sources situées à environ 200m. au-dessus du village,
-    - titre: Un réservoir de 25(métre cube), situé à environ 50m. au-dessus du village (rupture de charge) et équipé d’une pompe mécanique doseuse de chlore,
+    - titre: Un réservoir de 25(m3), situé à environ 50m. au-dessus du village (rupture de charge) et équipé d’une pompe mécanique doseuse de chlore,
     - titre: Neuf bornes fontaine le long de la route traversant le village, dont une pour l’école,
-    - titre: La formation d’un « Comité Eau » pour la gestion du réseau. Le montant du projet fut de 150 000 € environ, financé essentiellement par l’Agence de Bassin Loire Bretagne. Le projet fut géré par un « groupement » d’associations « La Ferté Macé – Ebolowa » basée en Normandie et HSF-IdF (à l’origine d’ESD) basée à Paris et représentée par Olivier CELIER, seul responsable technique et financier du projet.
+    - titre: La formation d’un « Comité Eau » pour la gestion du réseau. Le montant du projet fut de 150 000 € environ, financé essentiellement par l’Agence de Bassin Loire Bretagne. Le projet fut géré par un « groupement » d’associations « La Ferté Macé – Ebolowa » basée en Normandie et HSF-IdF (à l’origine d’ESD) basé à Paris et représentée par Olivier CELIER, seul responsable technique et financier du projet.

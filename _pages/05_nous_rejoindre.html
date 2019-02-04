@@ -16,15 +16,15 @@
           <h2 class="featurette-heading"  style="color:#c25e1b">
               Bulletin de soutien à E.S.D
           </h2>
-          <p>Notre ONG spécalisée dans le domaine de l'eau et de l'assainissement ,finance ses projets grâce à vos différents don.</p>
-          <p>Un recu fiscale vous sera remis pour déduire de vos impots 66% de votre don. vous pouvez nous soutenir grace à HELLOASSO</p>
+          <p>Notre ONG spécalisée dans le domaine de l'eau et de l'assainissement, finance ses projets grâce à vos différents dons.</p>
+          <p>Un recu fiscal vous sera remis pour déduire de vos impots 66% de votre don. vous pouvez nous soutenir grace à HELLOASSO</p>
     
         </div>
         <div class="col-12">
           <div class="card" style="width: 18rem;">
             <div class="card-body">
               <h5 class="card-title">HelloAsso</h5>
-              <p class="card-text">Allo Association! Vous pouvez nous soutenir avec:</p>
+              <p class="card-text">Allo Association! Vous pouvez nous soutenir avec : </p>
               <a href="https://www.donnerenligne.fr/eau-service-developpement/faire-un-don" class="btn btn-primary"> HelloAsso </a>
             </div>
           </div>
@@ -59,8 +59,8 @@
                 </div>
               </div>
             </div>
-            <div class="form-row mb-3">
-            <div class="col-12">
+            <div class="form-row mb-12">
+            <div class="col-md-12">
               <label for="email">Adresse Mail</label>
               <div class="input-group">
                 <div class="input-group-prepend">
@@ -70,10 +70,28 @@
                   required>
                   <div class="invalid-feedback">
                       Veuillez saisir votre adresse mail
-                  </div>
-              </div>
+                  </div> 
+
+           </div>     
+                <div class="form-row mb-12"
+                  <div class="col-md-12">
+                      <label for="email">Adresse Mail</label>
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" for="email">@</span>
+                        </div>
+                        <input name="email" type="email" class="form-control" id="email" placeholder="Votre adresse mail" aria-describedby="inputGroupPrepend2"
+                          required>
+                          <div class="invalid-feedback">
+                              Veuillez saisir votre adresse mail
+                          </div> 
+                  
+                       </div>
+                   
+                     </div>
+                </div>   
             </div>
-            </div>
+
             <div class="form-row mb-3">
               <div class="col-md-6">
                 <label for="ville">Ville</label>
@@ -91,31 +109,45 @@
               </div>
               <div class="col-md-3">
                 <label for="codepostal">Code Postale</label>
-                <input name="codepostal" type="text" class="form-control" id="codepostal" placeholder="Code Postale" >
+                <input name="codepostal" type="text" class="form-control" id="codepostal" placeholder="Code Postal" >
               </div>
             </div>
-        
-        
-            <p> Les frais d'adhesions sont:</br>
+        <section>
+          <div>
+            <p> Les frais d'adhesion sont:</br>
               Actif, Retraité : 50 euros</br>
-              Etudiant , chomeur : 15 euros </br>
-            </p>
-            <div class="form-group">
+              Étudiant , chômeur : 15 euros </br></br>
+              Vos données ne seront utilisées que par ESD.
+            </p> 
+          </div>
+        </section>
+            <!--<div class="form-group">
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                <label class="form-check-label" for="invalidCheck2">
+                 <label class="form-check-label" for="invalidCheck2">
                   J'accepte les termes et les conditions
                 </label>
+
               </div>
-            </div>
+            </div>-->
         
+         
             <!-- envoyer les données du formulaire  -->
-        
+            <div class="col-md-12">
             <button id="envoyer_demander_adhesion" class="btn btn-primary btn-lg">
               Envoyer 
             </button>
             <button id="annuler" type="reset" class="btn btn-outline-danger btn-lg">Annuler</button>
           </div>
+          <div class="col-md-12">
+          <p>
+            Vous pouvez payez votre adhésion, aprés avoir rempli votre formulaire :
+            - Soit par HelloAsso</br>
+            - Soit par chèque à ESD (24 bis place de la Nation 75012, Paris).
+          </p>
+
+          </div>
+
     </div>
 
   </div>

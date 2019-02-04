@@ -1,10 +1,10 @@
-- titre : Qui sommes nous? 
+- titre : Qui sommes-nous? 
   icon : fas fa-paper-plane
   id : qui
   contenu : 
     - p : E.S.D (Eau Service Développement)
     - p : est une  association réunissant une  équipe de  bénévoles actifs et retraités issus de divers horizons professionnels.
-    - p : elle se compose d'ingénieurs et techniciens hydroliciens, hydrogéologues, chargés de mission, de spécialistes en  génie civil et en traitement des eaux.
+    - p : elle se compose d'ingénieurs et techniciens hydrauliciens, hydraugéologues, chargés de mission, de spécialistes en  génie civil et en traitement des eaux.
     - 
 
 - titre : Nos domaines d'actions
@@ -14,14 +14,14 @@
     - p : Accès à eau potable
     - p : Assainissement
     - p : Irrigation
-    - p : Energie solaire
+    - p : Énergie solaire
     - p : Formation à la  maintenance
-    - p : Education au développement
+    - p : Éducation au développement
     - p : Et développement économiques en zones rurales
 
 - titre : Où nous trouver?
   icon : fas fa-map-marker
   id: trouver
   contenu : 
-    - p : Notre siège à Paris se situe au 
+    - p : Notre siège se situe au 
     - p : 24 bis Place de la Nation 75012, PARIS.
